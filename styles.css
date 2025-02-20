@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {    
+    background-color: #FAF9F6;   
+}
+
+.menu {    
+    background-color: #F4E1DE;
+    background-size: contain;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:5%;    
+}
+
+.menu__logo__img {
+    width: 30%;
+    margin-left: 5%;      
+}
+
+.menu__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;       
+    color: #FFFFFF;   
+}
+
+.submenu__links {
+    background-color: #ac4c4c;
+    color: #F4E1DE;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    border-radius: 16px;
+    padding: 3%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1,5rem;
+    text-decoration: none;
+}
+
+.submenu__links:hover {
+    background-color: rgba(172, 76, 76, 0.8);
+    cursor: pointer;
+}
+
+.linha__pos__menu {
+    height: 1px;
+    background-color: #8B3A3A;
+    border: none;
+}
+
+.menu__hamburguer {
+    color: #8B3A3A;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F4E1DE;    
+    border: 2px solid #ac4c4c;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.menu__hamburguer:hover, .menu__hamburguer svg:hover{
+    color: #F4E1DE;    
+    fill: #F4E1DE;
+    background-color: #ac4c4c;
+    cursor: pointer;  
+}
+
+.banner__profissional img {
+    width: 100%;
+}
+
